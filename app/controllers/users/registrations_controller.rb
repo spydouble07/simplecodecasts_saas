@@ -1,6 +1,6 @@
 class Users::RegistrationsController < Devise::RegistrationsController
   
-  def createToken
+  def create
     super do |resource|
       if params[:plan]
         resource.plan_id = params|:plan|
