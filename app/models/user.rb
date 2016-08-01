@@ -5,6 +5,7 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
   # Added this line manually. Remove if not needed.
   belongs_to :plan
+  has_one :profile
   attr_accessor :stripe_card_token
   
   def save_with_payment
