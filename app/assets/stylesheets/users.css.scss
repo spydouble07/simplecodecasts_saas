@@ -1,4 +1,11 @@
-img.avatar{
+/* Users Index Page Styles */
+img.user-index-avatar{
+  border-radius:50%;
+}
+/* Users Show Page Styles */
+img.user-show-avatar{ 
+  width:128px;
+  height: 128px;
   border-radius: 50%;  
   -webkit-box-shadow: 8px 8px 10px 0px rgba(11, 32, 57, 0.67);
 -moz-box-shadow:    8px 8px 10px 0px rgba(11, 32, 57, 0.67);
@@ -30,4 +37,8 @@ box-shadow:         8px 8px 10px 0px rgba(11, 32, 57, 0.67);
 .well.contact-info{
   background-color: #5bc0de;
   border-color: #46b8da;
+}
+
+.well.white-bg{
+  background-color: white;
 }
